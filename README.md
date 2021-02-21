@@ -18,7 +18,6 @@ Key              | Command
 <kbd>C-M-b</kbd> | Move backward over a balanced expression (`backward-sexp`)
 <kbd>C-M-k</kbd> | Kill balanced expression forward (`kill-sexp`)
 <kbd>C-M-t</kbd> | Transpose expressions (`transpose-sexps`)
-<kbd>C-M-@</kbd> | C-M-SPC Put mark after following expression (`mark-sexp`)
 <kbd>C-M-n</kbd> | Move forward over a parenthetical group (`forward-list`)
 <kbd>C-M-p</kbd> | Move backward over a parenthetical group (`backward-list`)
 <kbd>C-M-u</kbd> | Move up in parenthesis structure (`backward-up-list`)
