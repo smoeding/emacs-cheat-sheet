@@ -22,3 +22,12 @@ Key              | Command
 <kbd>C-M-p</kbd> | Move backward over a parenthetical group (`backward-list`)
 <kbd>C-M-u</kbd> | Move up in parenthesis structure (`backward-up-list`)
 <kbd>C-M-d</kbd> | Move down in parenthesis structure (`down-list`)
+
+## Abbrevs
+
+Key                 | Command
+--------------------|-----------------------------------------------
+<kbd>C-x a g</kbd   | Define an abbrev, using one or more words before point as <kbd>its expansion (`add-global-abbrev`)
+<kbd>C-x a l</kbd   | Similar, but define an abbrev specific to the current major mode (`add-mode-abbrev`)
+<kbd>C-x a i g</kbd | Define a word in the buffer as an abbrev (`inverse-add-global-abbrev`)
+<kbd>C-x a i l</kbd | Define a word in the buffer as a mode-specific abbrev  (`inverse-add-mode-abbrev`)
