@@ -39,3 +39,21 @@ Key                  | Command
 <kbd>C-x a l</kbd>   | Similar, but define an abbrev specific to the current major mode (`add-mode-abbrev`)
 <kbd>C-x a i g</kbd> | Define a word in the buffer as an abbrev (`inverse-add-global-abbrev`)
 <kbd>C-x a i l</kbd> | Define a word in the buffer as a mode-specific abbrev  (`inverse-add-mode-abbrev`)
+
+## Calc
+
+Key                | Command
+-------------------|-----------------------------------------------
+<kbd>C-x * g</kbd> | Open Calc and add region as vector (`calc-grab-region`)
+<kbd>v p</kbd>     | Pack stack elements as vector; prefix is length (`calc-pack`)
+<kbd>v u</kbd>     | Unpack vector on the top of the stack (`calc-unpack`)
+<kbd>V S</kbd>     | Sort elements of a vector (`calc-sort`)
+<kbd>I V S</kbd>   | Sort elements of a vector in decreasing order
+<kbd>u #</kbd>     | Count number of values in a vector (`calc-vector-count`)
+<kbd>u +</kbd>     | Sum values in a vector (`calc-vector-sum`)
+<kbd>u *</kbd>     | Multiply values in a vector (`calc-vector-product`)
+<kbd>u M</kbd>     | Compute mean of values in a vector (`calc-vector-mean`)
+<kbd>H u M</kbd>   | Compute median of values in a vector (`calc-vector-median`)
+<kbd>u S</kbd>     | Calculate sample standard deviation (`calc-vector-sdev`)
+<kbd>I u S</kbd>   | Calculate population standard deviation (`calc-vector-pop-sdev`)
+<kbd>t U</kbd>     | Convert between date and Unix time value (`calc-unix-time`)
