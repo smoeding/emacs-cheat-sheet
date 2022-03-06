@@ -33,13 +33,13 @@ Key              | Command
 
 ## Registers
 
-Key                      | Command
--------------------------|-----------------------------------------------
-<kbd>C-x r <SPC> R</kbd> | Record the position of point and the current buffer in register R (`point-to-register`)
-<kbd>C-x r j R</kbd>     | Jump to the position and buffer saved in register R (`jump-to-register`)
-<kbd>C-x r s R</kbd>     | Copy region into register R (`copy-to-register`)
-<kbd>C-x r i R</kbd>     | Insert text from register R (`insert-register`)
-<kbd>C-x r +</kbd>       | Append text to or increment register (`increment-register`)
+Key                    | Command
+-----------------------|-----------------------------------------------
+<kbd>C-x r SPC R</kbd> | Record the position of point and the current buffer in register R (`point-to-register`)
+<kbd>C-x r j R</kbd>   | Jump to the position and buffer saved in register R (`jump-to-register`)
+<kbd>C-x r s R</kbd>   | Copy region into register R (`copy-to-register`)
+<kbd>C-x r i R</kbd>   | Insert text from register R (`insert-register`)
+<kbd>C-x r +</kbd>     | Append text to or increment register (`increment-register`)
 
 ## Abbrevs
 
